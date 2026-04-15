@@ -17,7 +17,7 @@
     body{
         font-size: 25px;
         background-color: rgb(206, 206, 226);
-        background-image: url(images/img.png16.jpg);
+        background-image: url(img.png16.jpg);
         background-position: center center ;
         background-repeat: no-repeat;
         background-size: cover;
@@ -45,7 +45,7 @@
     #fondo{
         background-color: #ffffff;
         /* opacity: 0.3;*/
-        background-image: url(images/img.png11.png );
+        background-image: url(img.png11.png );
         height: 400px;
         background-size: 200px 200px;
         background-repeat: auto;
@@ -159,18 +159,23 @@ Servicio de Bamba
         </tfoot>
     </body>
 </Table>
-<form action="/formulario" method="POST">
-        <label for="nombre">Nombre</label>
-        <input value="" type="text" id="nombre" name="victor" placeholder="bamba servicio..." />
-        <br>
-        <label for=" apellido">apellido</labe>
-         <input value="" type="text" id="apellido" name="nombre"placeholder=" servicio en españa..." />
-         <br>
-        <label for="comentario">commentario </label>
-        <textarea cols="80" rows="10" id="commentario" placeholder="ingrese comentario" name="comentario"></textarea>
+<section id="contact">
+    <h2>contacto</h2>
+
+<form action="https://formspree.io/f/mdaykbzl" method="POST">
+        <label>nom :</label><br>
+        <input type="text" name="name"required><br><br>
+
+        <label>email :</label><br>
+        <imput type="email" name="email"required><br><br>
+            <label>message :</label><br><br><br>
+            <textarea cols="80" rows="10" id="commentario" placeholder="ingrese comentario" name="comentario"></textarea>
+            <button type="submit">enviador</button>
+
 <br>
-        <button type="button" enviar >tipo botón</button>
+        
 </form>
+</section>
         <h1> servir a la vocación cotidiana de la población es nuestro obejetivo.</h1> 
         <h3>Estamos a su servicio de lunes a viernes de las 6h de mañana a las 17h la tardes y sabado de las 6h de la mañana a las 14h de la tardes.
             Puedes encontrarnos en todas las plataformas de descarga a través de nuestra aplicación <Servicio Bamba>, a través de nuestra página de Facebook o contactando con atención al cliente.
